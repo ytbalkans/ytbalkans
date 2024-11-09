@@ -1,0 +1,31 @@
+{
+    "eepl.target.device": {
+        "description": "M72OD20R - Optimized",
+        "devManId": 0,
+        "devName": "M72OD20R",
+        "frameWorkVerA": 0,
+        "frameWorkVerB": 102,
+        "frameworkSize": 72448,
+        "periphInfo": {
+            "isDesktop": false,
+            "isResourcesInternal": false,
+            "aoCount": 3,
+            "relayCount": 6,
+            "uartCount": 2,
+            "uiCount": 11,
+            "flashSize": 262144,
+            "ramSize": 65536,
+            "flashPageSize": 256
+        },
+        "triplet": "thumbv7m-none-none-eabi",
+        "runtime": "clang_rt.builtins-armv7m",
+        "stdlib": "armv7m/std/picolib",
+        "includePaths": [],
+        "stdlibs": [
+            "-lc",
+            "-lm",
+            "-nostdlib"
+        ],
+        "pathToFile": "c:\\Users\\le0wi\\.eec\\targets\\M72OD20R\\targetInfo.json"
+    }
+}
